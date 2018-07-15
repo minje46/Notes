@@ -1,7 +1,3 @@
-<br></br>
-<br></br>
-<br></br>
-<br></br>
 ### C++ notions
 <u></u>
 1. namespace
