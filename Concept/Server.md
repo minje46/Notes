@@ -4,7 +4,7 @@
 
 ## What is Server? 
 
-- **Server is computer to operate special task as role of providing information ** and operating special task needs high utility of CPU and memory and so on. 
+- **Server is computer to operate special task as role of providing information** and operating special task needs high utility of CPU and memory and so on. 
 
   <br>(서버란, 정보 제공 역할을 하는 주체로서 어떤 특화된 임무를 수행하기 위해 설정된 컴퓨터라 할 수 있다. 그래서 특화된 업무를 수행하기 위해 일반 컴퓨터보다 고성능의 CPU와 대용량 메모리 등으로 구성되어 있다.)
 
@@ -14,13 +14,13 @@
   >
   > 	E-mail server : Controlling email server.
   >
-  > 	Web server : Controlling web site's server and being host server.
+  > ​	Web server : Controlling web site's server and being host server.
   >
   > 	Multi media server : Controlling videos and musics in the server.
   >
-  > 	→  `[Naver-Email]`을 확인 하는 것은 Naver 라는 web server에 접속하여 E-mail server에 
+  > ​	→  ```[Naver-Email]```을 확인 하는 것은 Naver 라는 web server에 접속하여 E-mail server에 
   >
-  > 		접근하여 mail을 확인하는 것이다.
+  > ​		접근하여 mail을 확인하는 것이다.
 
 
 
