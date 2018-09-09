@@ -28,9 +28,7 @@
 
   <br>(웹 서버 한대를 보통 2~300개의 계정으로 나누어 웹서버 한대가 2~300개의 웹을 운영하며, 이것을 호스팅이라고 한다. <br> 일반적으로 웹 서버를 구매한다는 것이 웹 서버의 계정 한개를 구매하여 웹 호스팅을 한다는 것이다.)
 
-  ![server_thread](https://user-images.githubusercontent.com/23169707/45259907-2270db80-b413-11e8-9591-dd80da4a1a39.png)
-
-  ![Server_structure](C:\Users\KWAK\Documents\GitHub\Notes\Concept\Server_structure.png)
+  ![server_structure](https://user-images.githubusercontent.com/23169707/45259928-8c898080-b413-11e8-9080-3fe4c7d6e415.png)
 
 * **Logical server** has web server which **provides client's request and html** and db server which **provides requested data.** <br>**Physical server** is physical **hard ware** to operate logical server.
   <br>(논리적인 서버는 사용자의 입력 및 HTML 생성을 담당하는 web server와 data 제공을 하는 db server를 말할 수 있다.<br>물리적인 서버는 web server와 db server를 동작 시키는 물리적인 컴퓨터 하드웨어를 말한다.)
@@ -39,7 +37,7 @@
 
   ## Client & Server
 
-  ![Server_client](C:\Users\KWAK\Documents\GitHub\Notes\Concept\Server_client.png)
+  ![server_client](https://user-images.githubusercontent.com/23169707/45259918-6e238500-b413-11e8-8ad8-b2749ee824db.png)
 
   > 기본적으로 **웹의 구조**는 **Client & Server 방식**으로 이루어지며, **Client(Web browser)**가 특정 페이지를 웹 서버에 **Request**하면 이를 **처리한 결과**를 Client에게 **Response 하는 구조.**
   >
@@ -112,9 +110,7 @@
 
   ### Web Application Server (WAS)
 
-  ![Server_WAS](C:\Users\KWAK\Documents\GitHub\Notes\Concept\Server_WAS.png)
-
-
+  ![server_was](https://user-images.githubusercontent.com/23169707/45259920-7da2ce00-b413-11e8-95ae-2d0d72922533.png)
 
   - **WAS is `web server` + `web container`** and **it has components** what is used on web.
     <br>(웹 어플리케이션 서버는 웹 서버와 웹 컨테이너를 포용하는 용어로, 웹 상에서 사용하는 컴포넌트들을 올려 놓고 사용하게 되는 서버를 말한다.)
