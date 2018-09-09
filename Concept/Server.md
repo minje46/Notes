@@ -28,6 +28,8 @@
 
   <br>(웹 서버 한대를 보통 2~300개의 계정으로 나누어 웹서버 한대가 2~300개의 웹을 운영하며, 이것을 호스팅이라고 한다. <br> 일반적으로 웹 서버를 구매한다는 것이 웹 서버의 계정 한개를 구매하여 웹 호스팅을 한다는 것이다.)
 
+  ![Server_thread](./img/Server_thread.png)
+
 
 
   ![Server_structure](C:\Users\KWAK\Documents\GitHub\Notes\Concept\Server_structure.png)
