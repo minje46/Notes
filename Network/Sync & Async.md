@@ -88,8 +88,7 @@
 >
 > > * What is Call back function?
 > >
-> >   → **Call back function** is a function which **is passed as an argument to another function(다른 함수의 인자로써 이용되는 함수)** or **is invoked after some kind of event(어떤 이벤트에 의해 호출되어지는 함수).**
-> >   → ㅁㄴㅇ
+> >   → **Call back function** is a function which **is passed as an argument to another function(다른 함수의 인자로써 이용되는 함수)** or **is invoked after some kind of event(어떤 이벤트에 의해 호출되어지는 함수).** <br>→ 콜백이 뭔지 잘 모르겠어염..
 > >
 
 ###### Non blocking 과 Asynchronous의 차이점은 System call이 즉시 return 될 때 data 포함의 유무이다.
