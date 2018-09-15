@@ -2,13 +2,13 @@
 
 ------
 
-## Basic concepts of network
+## Basic concepts
 
 - **When data is transmitting,** data i s transmitted by byte stream. And this data is not transmitted at once, **it is handled by packet.**
 
   > * Packet : Usually **packet** has 1500byte and it **includes data which is separated by size.** So it should have **header which includes essential data such as IP, destination ip, TCP** and so on.
   >
-  >   ​	→ Data is separated by packet and **it causes overhead** though, the reason **why using packet is it is easy to handle with failure of data transmission.**
+  >   	→ Data is separated by packet and **it causes overhead** though, the reason **why using packet is it is easy to handle with failure of data transmission.**
 
 - **Protocol is rule of communication on network.** The reason **why using protocol** is there are **a lot of different type things** on network and it should transmit each other. That's why the **rule and system is needed. **
 
@@ -65,7 +65,7 @@
   > 	→ **It based on 1 : n , 1 : 1 connection. But it doesn't transmit ACK so it hasn't responsible for responsible.**
   >
   > 	→ **It is used as small amount of data transmission.**
-  >
+  >	
   > 	→ **It is also used for avoiding overhead of ACK.**
 
 - Network layer
