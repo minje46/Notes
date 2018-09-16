@@ -42,11 +42,55 @@
   >   >   → 컴퓨터가 서로 통신을 할 때, 먼저 public key를 통신하고 컴퓨터에 복사하여 저장을 한다. 그리고 client에서 request 할 때 response 하는 server에 복사되어,
   >   >
   >   >   client 와 server의 public key와 쌍을 이루는 private key와 비교를 하여 서로 한 쌍의 key인지 판단한다.
+  >
+  > * Telnet
+  >
+  >   Telnet이란, TCP/IP 기반의 protocol로 원격 시스템을 자신의 시스템처럼 사용할 수 있게 하는 원격 터미널 접속 서비스이다.
+  >
+  >   → Telnet은 NVT를 통해 terminal과 host와의 1:1 connection을 제공한다.
+  >
+  >   → Telnet은 모든 data를 terminal을 통해 transmission하기 때문에, ID/password와 같은 data가 노출된다.
+  >
+  >   > * NVT(Network Virtual Terminal)
+  >   >
+  >   >   → Telent protocol을 이용하여 local system과 remote system의 version과 data 형식이 다를 수 있기 때문에, 원활한 통신을 위해 data를 변환시켜주는 가상장치.
+  >
+  >   > * Process of telnet
+  >   >
+  >   > 1. Client가 remote control을 하기 위해 remote system에 TCP connection(port number : 23)을 request.
+  >   > 2. Remote system은 connection된 client에게 NVT를 제공.
+  >   > 3. Client는 local terminal처럼 사용. (실제로는 remote system의 terminal에 접근하는 것.)
+  >   > 4. NVT를 통해 request받은 명령을 remote system에서 실행하고 결과를 resoponse 해준다.
+  >
+  > * Telnet & SSH
+  >
+  >   → Telnet은 data를 byte stream형식으로 transmission. 
+  >
+  >   > The security of telent is vulnerable.
+  >
+  >   → SSH는 DES, RSA등 고급 encryption을 통해 transmission.
+  >
+  >   > It provides encryption and compression together so it will be small overhead compared to telnet.
 
 - **The advantages of Rsync** are that it is **able to copy and synchronize efficiently** and **get extra data** such as link and permission. <br>Furthermore, it **works quickly and efficiently** because it only transmits differences and **uses small bandwidth** because of using data compression during transmission and response.
   <br>(Rsync는 원격 시스템으로 부터 파일을 효율적으로 복사하거나 동기화 할 수 있으며, Link와 permission등 파일의 부가정보도 복사할 수 있다. <br>또한, 파일의 차이점만 전송하기 때문에 빠르고 효율적으로 작동하기 때문에 scp보다도 더 빠르며, 데이터를 압축해서 송/수신하기 때문에 더 적은 대역폭을 사용한다.)
 
-  > scp rcp
+  > > * SCP(Secure CoPy) & RCP(Remote CoPy)
+  > >
+  > >   → These are used for copying data in remote.
+  > >
+  > >   → SCP should use with ssh for security.
+  > >
+  > >   → RCP doesn't have restriction for using. It provides copying data in remote.
+  >
+  > > * Mirroring
+  > >
+  > >   → 원래 Mirroring은 H/D에 저장되어 있는 data를 copy해 놓는 것을 의미한다.
+  > >
+  > >   → Mirror는 computing에서 자료 모음의 복사본이며, mirroring은 file 동기화의 일종으로 볼 수 있다. 
+  > >
+  > >   → 최근에 종종 사용되고 있는 web site에서 mirroring 기술은 기존의 web site를 copy하여 mirror site를 제공한다. 이를 통해 Client가 web site에 빠르게 접근할 수 있도록 해준다. 
+  > >
+  > >   (Mirroring의 목적인 Back up과는 거리가 멀다.)
 
-- a
 
