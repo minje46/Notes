@@ -11,16 +11,16 @@
   > Ex)
   >
   > 	domain server : Controlling domain server.
-  >
+  >	
   > 	E-mail server : Controlling email server.
   >
-  > ​	Web server : Controlling web site's server and being host server.
+  > 	Web server : Controlling web site's server and being host server.
   >
   > 	Multi media server : Controlling videos and musics in the server.
   >
-  > ​	→  ```[Naver-Email]```을 확인 하는 것은 Naver 라는 web server에 접속하여 E-mail server에 
+  > 	→  ```[Naver-Email]```을 확인 하는 것은 Naver 라는 web server에 접속하여 E-mail server에 
   >
-  > ​		접근하여 mail을 확인하는 것이다.
+  > 		접근하여 mail을 확인하는 것이다.
 
 
 
@@ -44,9 +44,9 @@
   > 	1. Request : Web browser 가 Web server에 해당 페이지를 request.
   >
   >    	2. 해당 **web server**는 **requested page를 html인지 jsp 인지 판단**하고, **html이면 response 하고** 아닌 경우에는 **요청된 페이지의 logic / DB 연동을 위해 WAS에 처리를 request한다.**
-  >    	3. WAS에서 DB연동이 필요하면 DB 처리를 수행한다.
-  >    	4. **처리 결과**를 web server에 **response**한다.
-  >    	5. **최종 결과를** Web browser에 **response**한다.
+  >       	3. WAS에서 DB연동이 필요하면 DB 처리를 수행한다.
+  >          	4. **처리 결과**를 web server에 **response**한다.
+  >             	5. **최종 결과를** Web browser에 **response**한다.
 
 
 
@@ -65,6 +65,27 @@
   - **Web server transports html or object in http protocol** for dealing with client's request and **sends client's request** if there are things can't deal with itself and **response the final results** of client's request. <br> **Just web server is able to deal with only static page** such as web page and images and Apache, IIS are the typical web server.
 
     <br>(웹 서버는 클라이언트의 요청을 받아 html 이나 object를 http 프로토콜을 이용해 전송하며, 사용자가 요청한 것들 중에 웹 서버 자체적으로 처리할 수 없는 것을 웹 컨테이너 등과 같이 처리할 수 있는 곳으로 넘기고 처리된 결과를 종합적으로 받아와서 사용자에게 넘겨주는 역할을 한다.<br>웹 서버 만으로 구축된 서버는 웹페이지, 이미지 등 정적인 페이지를 생성하고 Apache, IIS(Internet Information Server)등의 종류가 있다.)
+
+    >* **IIS (Internet Information Services) is the server group** for using MS window.
+    >  <br>(IIS는 마이크로소프트 윈도우를 사용하는 서버들을 위한 인터넷 기반 서비스들의 모임이라고 할 수 있다.)
+    >
+    >  > 1. IIS 관리자를 사용하여 IIS 기능을 구성하고 web site를 관리한다.
+    >  > 2. FTP를 사용하여 web site 소유자가 file을 upload & download할 수 있다.
+    >  > 3. Web site 격리를 사용하여 web site가 server의 다른 web site를 방해하지 않도록 한다.
+    >  > 4. 클래식 ASP, ASP.NET, PHP 등의 다양한 기술을 사용하여 작성된 web 응용 프로그램을 구성한다.
+    >  > 5. Windows PowerShell을 사용하여 web server에 대한 대부분의 관리 작업관리 과정을 자동하 할 수 있다.
+    >
+    >* **Apache**는 open source license에 따라 배포되어 사용할 수 있는 **HTTP web server**이다. 
+    >
+    >  > → Tomcat과 Resin 등의 web application server와 함께 사용할 수 있다.
+    >  >
+    >  > → Open-SSL, Mod-SSL을 설치하여 보안을 강화할 수 있다. `(http → https)`
+    >
+    >* **Tomcat**은 Apache S/W의 application server로서, Java servlet을 실행시키고 JSP code가 포함되어 있는 web page를 제공한다.
+    >
+    >  > → Tomcat은 web server에서 넘어온 dynamic page를 read하고 program을 실행하여 result를 HTML로 재구성하여 Apache에 return해주는 구조를 가진다.
+
+
 
   - **Using web** is **client** is called user and web browser altogether **requests service** to server and **server will response** service which is requested from client and **display the results** on the monitor.    
 
