@@ -1,5 +1,5 @@
 ### C++ notions
-<u></u>
+<u> </u>
 1. namespace
 - namespace is able to set specific name's space for distinguishing functions have same names.
 <br>(동일한 이름의 method를 구분하기 위해 name의 공간을 만들고 관리해주어, methods를 구별 가능하도록 하였다.)
