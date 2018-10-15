@@ -1,10 +1,8 @@
-### Deepen theories
-
 ------
 
 ## What is Rest API?
 
-* **REST API is developed for providing usability of web architecture's advantages.**
+- **REST API is developed for providing usability of web architecture's advantages.**
   <br>(REST API는 웹 아키텍쳐의 우수성을 최대한 활용할 수 있도록 만들어진 API이다.)
 
   > - API(Application Programming Interface)
@@ -12,25 +10,25 @@
   >
   >   Ex) Daum map의 지도 data를 활용하기 위해 API를 사용하여 Follow를 제작.
 
-  > * REST(REpresentational State Transfer)
+  > - REST(REpresentational State Transfer)
   >   → Rest란, Web resources(image, video, DB)에 고유한 URI를 부여하고, HTTP URI로 표현된 resource에 대한 행위를 HTTP Method로 정의한다.
   >
   >   → Rest는 resource, method, representations로 구성되어 있다.
   >
-  >   > * Resource(자원)
+  >   > - Resource(자원)
   >   >
   >   >   → Rest에서 가장 중요한 개념은 바로 유일한 ID를 가지는 resource가 server에 존재하고, client는 각 resource의 상태를 조작 및 조회를 하기 위해 요청을 보낸다. 
   >   >
   >   >   → Resource라는 것은 처리되는 대상으로 JSON, XML 문서, image 등이 될 수 있으며, 이러한 resource는 URI를 통해 위치가 지정된다.
   >   >
-  >   > * Method (verb, 행위)
+  >   > - Method (verb, 행위)
   >   >   → Method는 resource를 조작할 수 있는 기능을 뜻하며, client는 URI를 이용하여 resource를 지정하고 해당 resource를 조작 및 조회를 하기 위해 method를 사용한다.
   >   >
   >   >   → HTTP 에서는 `GET, POST, PUT, DELETE` 등의 method가 존재한다.
   >   >
   >   >   → `GET https://github.com/minje46` 에서 Get은 method, URI는 resource이다.
   >   >
-  >   > * Representation (표현)
+  >   > - Representation (표현)
   >   >
   >   >   → Client가 server로 request를 했을 때, Server가 response 해주는 resource의 형태를 representation이라 한다. Rest에서 하나의 resource가 여러 형태의 representation으로 나타내어 질 수 있다.
   >   >
@@ -53,7 +51,7 @@
 
 
 
-* The differences of resources location.
+- The differences of resources location.
 
   > - IRI (International Resource Identifier)
   >
@@ -94,17 +92,4 @@
   >   >   → 이 때, Taiju가 유일하게 결정지어지는 조건(URI)는 1996.04.17(URN)라는 주민등록을 가진 사람 or 리치카페(URL)에 사는 사람.
 
 
-
-
-
-------
-
-## What is Port-Forwarding?
-
-- **Port-Forwarding allocates specific port number which is connected to inner IP of host** for distingushing inner IP from outside.
-  <br>
-
-  (Port-Forwarding은 공유기를 사용하여 외부IP와 실제로 user가 할당받은 내부IP가 다를 경우 사용되는 개념으로, 공유기에게 특정 port를 할당하여 내부IP와 연결해주는 기술이다.)
-
-  <img width="418" alt="port_forwarding" src="https://user-images.githubusercontent.com/23169707/45630982-d558cd80-bad4-11e8-93e2-9d51819611fc.png"> 
 
