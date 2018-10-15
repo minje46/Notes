@@ -24,7 +24,7 @@
 
 ## 2. XML & HTML 
 
-- The purpose of HTML is **data expression**, otherwise XML **sets data structure** for exchanging data.
+- The purpose of **HTML** is **data expression**, otherwise **XML** **sets data structure** for exchanging data.
   <br>(HTML는 데이터 표현이 목적이라면, XML은 데이터 교환을 위한 구조 정의가 목적이다.)
 
 - **HTML must use tag** which is **already set** though, **XML can use tag freely** because **tag is not predefined.**
@@ -32,6 +32,14 @@
 
 - **HTML is web language** which only can use in web envrionment, otherwise **XML has no limitation.**
   <br>(HTML은 인터넷 웹 환경에서 작동되는 언어이지만, XML은 특정 환경에 제한받지 않는다.)
+
+  >* jsoup
+  >
+  >  **→ jsoup은 기본적으로 HTML format의 string을 java에서 사용 가능한 DOM object로 parser해주는 기능을 지원하는 것이다. (Web page를 read하는 기능은 지원하지 않는다.)**
+  >
+  >  Ex) `Jsoup.parse(String url, int timeoutMillisecons)` 
+  >
+  >  → jsoup의 selector api를 이용해 특정 element에 접근할 수 있으며, data read 또는 수정을 할 수 있다. (jsoup은 jquery의 selector와 비슷한 selector api를 제공하기 때문에 쉽게 사용할 수 있다는 장점이 있다.)
 
 
 ## 3. DTD (Document Type Definition) 
@@ -63,7 +71,7 @@
 
   > EX1 ) ```<p align = "center">``` 
   >
-  > ​	align을 center 로 설정한다는 구체적인 명령어 체계를 가지도록 하는 것이 attribute이다.
+  > 	align을 center 로 설정한다는 구체적인 명령어 체계를 가지도록 하는 것이 attribute이다.
   >
   > <br>
   >

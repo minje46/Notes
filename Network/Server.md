@@ -11,15 +11,15 @@
   > Ex)
   >
   > 	domain server : Controlling domain server.
-  >	
+  >		
   > 	E-mail server : Controlling email server.
-  >
+  >	
   > 	Web server : Controlling web site's server and being host server.
-  >
+  >	
   > 	Multi media server : Controlling videos and musics in the server.
-  >
+  >	
   > 	→  ```[Naver-Email]```을 확인 하는 것은 Naver 라는 web server에 접속하여 E-mail server에 
-  >
+  >	
   > 		접근하여 mail을 확인하는 것이다.
 
 
@@ -33,6 +33,13 @@
 * **Logical server** has web server which **provides client's request and html** and db server which **provides requested data.** <br>**Physical server** is physical **hard ware** to operate logical server.
   <br>(논리적인 서버는 사용자의 입력 및 HTML 생성을 담당하는 web server와 data 제공을 하는 db server를 말할 수 있다.<br>물리적인 서버는 web server와 db server를 동작 시키는 물리적인 컴퓨터 하드웨어를 말한다.)
 
+  > → Logical 과 Physical 이라는 단어를 많은 곳에서 사용하는 것을 확인할 수 있는데, 
+  > Physical은 물리적으로 실제로 연결되어 있는, 물리적으로 관계가 되어 있는 것을 뜻하며 
+  >
+  > 반대로 logical은 물리적인 관계와는 상관 없는 논리적인 구조 또는 관계를 뜻한다.
+  >
+  > ex) Logical structure, logical time, logical address etc.
+
   ------
 
   ## Client & Server
@@ -44,9 +51,9 @@
   > 	1. Request : Web browser 가 Web server에 해당 페이지를 request.
   >
   >    	2. 해당 **web server**는 **requested page를 html인지 jsp 인지 판단**하고, **html이면 response 하고** 아닌 경우에는 **요청된 페이지의 logic / DB 연동을 위해 WAS에 처리를 request한다.**
-  >       	3. WAS에서 DB연동이 필요하면 DB 처리를 수행한다.
+  >             	3. WAS에서 DB연동이 필요하면 DB 처리를 수행한다.
   >          	4. **처리 결과**를 web server에 **response**한다.
-  >             	5. **최종 결과를** Web browser에 **response**한다.
+  >                 	5. **최종 결과를** Web browser에 **response**한다.
 
 
 
