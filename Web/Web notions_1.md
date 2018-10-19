@@ -28,7 +28,7 @@
   <br>(HTML는 데이터 표현이 목적이라면, XML은 데이터 교환을 위한 구조 정의가 목적이다.)
 
 - **HTML must use tag** which is **already set** though, **XML can use tag freely** because **tag is not predefined.**
-  <br>(HTML은 정해진 태그를 가지고 표현해야 하지만, XML은 미리 정해진 태그가 없기 때문에 자유로게 만들어 사용할 수 있다.)
+  <br>(HTML은 정해진 태그를 가지고 표현해야 하지만, XML은 미리 정해진 태그가 없기 때문에 자유롭게 만들어 사용할 수 있다.)
 
 - **HTML is web language** which only can use in web envrionment, otherwise **XML has no limitation.**
   <br>(HTML은 인터넷 웹 환경에서 작동되는 언어이지만, XML은 특정 환경에 제한받지 않는다.)
@@ -75,12 +75,39 @@
   >
   > <br>
   >
-  >
   > Ex2) `<!ATTLIST Name CDATA #REQUIRED>` 로 DTD에 선언할 수 있다.
 
+- The purpose of attribute is explaining additional data of element and **it is located in HTML text** so it is also **static data.**
+
+  <br>
+
+  (Attribute는 HTML element의 추가적인 정보를 전달하며, HTML text 문서에 존재한다. [정적인 데이터라고 볼 수 있다.])
 
 
-## 6. Entity 
+
+## 6. Property 
+
+- **Property has a role of storing value** and it is **for object.**
+
+  <br>
+
+  (Property는 값을 저장하는 역할을 하며, 객체를 위해서 데이터를 저장한다.)
+
+- **Property is located in HTML DOM tree of attribute** and it is also **dynamic data.**
+
+  <br>(Property는 attribue에 대한 HTML DOM tree 내부에서 존재한다.[동적인 데이터로 볼 수 있다.])
+
+> * Variable vs. Property
+>
+>   → Variable 과 property 모두 값을 저장하는 역할을 한다고 볼 수 있으나, variable은 context에 포함되어 있는 반면, property는 object에 포함되어 있어 object를 구성하는 block이라고 볼 수 있다.
+
+
+
+## 7. Entity 
 
 - Entity is similar concept of define in C Language, **it defines variables to other special value.**
   <br>(Entity는 C언어에서 define으로 설정해주는 상수와 유사한 개념으로, 변수를 미리 다른 값으로 정의하는 것이다.)
+
+  Ex)  DTD 에서는 `<!ENTITY kwak "Genius">` 방식으로 선언하고, XML 에서는 `	&kwak;`  으로 사용하고,
+
+  결과는 `Genius` 가 출력된다.
