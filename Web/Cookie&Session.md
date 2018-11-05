@@ -28,10 +28,10 @@
   >  → It means saving login data as cookie or not.
   > ```
   >
-  > 1. When web site asks Don't you wanna see this pop up anymore?
+  > 2. When web site asks Don't you wanna see this pop up anymore?
   >
   > ```
-  >  → It means saving the condition in cookie. 
+  >  → It means saving the condition in cookie.
   > ```
 
 - **Session is technology of keeping web browser's state.**
