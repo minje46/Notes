@@ -10,7 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/23169707/48902987-94e34a80-ee9d-11e8-8cfd-68b00b7a28bc.png)
 
-
+>Reference : [Algorithm cheat sheet](http://blogsaskorea.com/49)
 
 ------
 
@@ -102,6 +102,18 @@
 
   >EX)
   >
+  >Agent : 학습을 하는 system.
   >
+  >Environment : 불이난 상황.
+  >
+  >Reward : Action을 통해 얻는 결과.
+  >
+  >Penalty : Reward에 대한 벌점.
+  >
+  >Policy : 가장 큰 reward를 얻기위한 최상의 전략.(스스로 학습)
+  >
+  >![image](https://user-images.githubusercontent.com/23169707/48926587-d06c2c00-ef12-11e8-9964-f548a0dfb08b.png)
+  >
+  >→ Agent가 action을 취하고 이를 통해 얻을 수 있는 reward를 기반으로 policy를 선택하는 것.
 
 - **Reinforcement learning의 종류로는 Q-learning과 Deep-Q-Netwrok(DQN)이 있다.**
