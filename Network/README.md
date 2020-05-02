@@ -1,0 +1,1 @@
+* Google 접속하는 일괄적인 프로세스 : https://parksb.github.io/article/36.html
